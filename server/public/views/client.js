@@ -25,8 +25,8 @@ $(document).ready(function(){
   	});
 
       $("#clear").on("click", function(){
-      		$("#numOne").val(' ');
-        	$("#numTwo").val(' ');
+      		$("#numOne").empty();
+        	$("#numTwo").empty();
 
  	})
  });
